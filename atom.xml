@@ -6,7 +6,7 @@
   <link href="https://lunaticreisen.github.io/project/atom.xml" rel="self"/>
   
   <link href="https://lunaticreisen.github.io/project/"/>
-  <updated>2021-07-05T18:10:58.473Z</updated>
+  <updated>2021-07-06T09:36:21.588Z</updated>
   <id>https://lunaticreisen.github.io/project/</id>
   
   <author>
@@ -17,15 +17,26 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>luna</title>
-    <link href="https://lunaticreisen.github.io/project/2021/07/06/luna/"/>
-    <id>https://lunaticreisen.github.io/project/2021/07/06/luna/</id>
-    <published>2021-07-05T18:10:58.000Z</published>
-    <updated>2021-07-05T18:10:58.473Z</updated>
+    <title>firstBlog</title>
+    <link href="https://lunaticreisen.github.io/project/2021/07/06/firstblog/"/>
+    <id>https://lunaticreisen.github.io/project/2021/07/06/firstblog/</id>
+    <published>2021-07-06T09:35:51.000Z</published>
+    <updated>2021-07-06T09:36:21.588Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;欢迎来到我的Blog，由于我并不熟悉git和hexo,所以目前还在研究并测试中&lt;/p&gt;
+&lt;p&gt;我使用的文本编辑器是&lt;code&gt;Visual Studio Code&lt;/code&gt;，网页使用的主题来自&lt;a</summary>
+        
+      
     
     
     
     
+    <category term="Blog" scheme="https://lunaticreisen.github.io/project/tags/Blog/"/>
     
   </entry>
   
