@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title></title>
   
-  <subtitle>我是懒狗，明天再做</subtitle>
+  <subtitle>w</subtitle>
   <link href="https://lunaticreisen.github.io/project/atom.xml" rel="self"/>
   
   <link href="https://lunaticreisen.github.io/project/"/>
-  <updated>2021-07-06T09:36:21.588Z</updated>
+  <updated>2021-07-06T10:35:13.108Z</updated>
   <id>https://lunaticreisen.github.io/project/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://lunaticreisen.github.io/project/2021/07/06/firstblog/"/>
     <id>https://lunaticreisen.github.io/project/2021/07/06/firstblog/</id>
     <published>2021-07-06T09:35:51.000Z</published>
-    <updated>2021-07-06T09:36:21.588Z</updated>
+    <updated>2021-07-06T10:35:13.108Z</updated>
     
     
       
@@ -34,6 +34,8 @@
       
     
     
+    
+    <category term="Test1" scheme="https://lunaticreisen.github.io/project/categories/Test1/"/>
     
     
     <category term="Blog" scheme="https://lunaticreisen.github.io/project/tags/Blog/"/>
