@@ -3,11 +3,11 @@
   <title></title>
   
   <subtitle>w</subtitle>
-  <link href="https://lunaticreisen.github.io/project/atom.xml" rel="self"/>
+  <link href="https://lunaticreisen.github.io/atom.xml" rel="self"/>
   
-  <link href="https://lunaticreisen.github.io/project/"/>
+  <link href="https://lunaticreisen.github.io/"/>
   <updated>2021-07-06T10:35:13.108Z</updated>
-  <id>https://lunaticreisen.github.io/project/</id>
+  <id>https://lunaticreisen.github.io/</id>
   
   <author>
     <name>LunaticReisen</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>firstBlog</title>
-    <link href="https://lunaticreisen.github.io/project/2021/07/06/firstblog/"/>
-    <id>https://lunaticreisen.github.io/project/2021/07/06/firstblog/</id>
+    <link href="https://lunaticreisen.github.io/2021/07/06/firstblog/"/>
+    <id>https://lunaticreisen.github.io/2021/07/06/firstblog/</id>
     <published>2021-07-06T09:35:51.000Z</published>
     <updated>2021-07-06T10:35:13.108Z</updated>
     
@@ -35,17 +35,17 @@
     
     
     
-    <category term="Test1" scheme="https://lunaticreisen.github.io/project/categories/Test1/"/>
+    <category term="Test1" scheme="https://lunaticreisen.github.io/categories/Test1/"/>
     
     
-    <category term="Blog" scheme="https://lunaticreisen.github.io/project/tags/Blog/"/>
+    <category term="Blog" scheme="https://lunaticreisen.github.io/tags/Blog/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="https://lunaticreisen.github.io/project/2021/07/06/hello-world/"/>
-    <id>https://lunaticreisen.github.io/project/2021/07/06/hello-world/</id>
+    <link href="https://lunaticreisen.github.io/2021/07/06/hello-world/"/>
+    <id>https://lunaticreisen.github.io/2021/07/06/hello-world/</id>
     <published>2021-07-05T18:10:21.021Z</published>
     <updated>2021-07-05T18:10:21.021Z</updated>
     
