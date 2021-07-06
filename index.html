@@ -250,13 +250,6 @@
 
 <div class="carousel carousel-slider center index-cover" data-indicators="true" style="margin-top: -64px;">
     
-        <div id="prev-cover" class="left waves-effect carousel-control">
-            <i class="icon fa fa-angle-left"></i>
-        </div>
-        <div id="next-cover" class="right waves-effect carousel-control">
-            <i class="icon fa fa-angle-right"></i>
-        </div>
-    
 
     <div class="carousel-item red white-text bg-cover about-cover">
         <div class="container">
@@ -278,7 +271,7 @@
                         strings: ['从来没有真正的敬业, 只有正在敬业的路上',''],
                         startDelay: 300,
                         typeSpeed: 100,
-                        loop: false,
+                        loop: true,
                         backSpeed: 30,
                         showCursor: true
                     });
@@ -408,16 +401,6 @@
             
         };
 
-        
-        // prev and next cover post.
-        $('#prev-cover').click(function () {
-            coverSlider.carousel('prev');
-            restartPlay();
-        });
-        $('#next-cover').click(function () {
-            coverSlider.carousel('next');
-            restartPlay();
-        });
         
     });
 </script>
