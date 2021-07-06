@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title></title>
+  <title>Luna`s Blog</title>
   
   <subtitle>w</subtitle>
   <link href="https://lunaticreisen.github.io/atom.xml" rel="self"/>
   
   <link href="https://lunaticreisen.github.io/"/>
-  <updated>2021-07-06T10:35:13.108Z</updated>
+  <updated>2021-07-06T16:25:39.534Z</updated>
   <id>https://lunaticreisen.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://lunaticreisen.github.io/2021/07/06/firstblog/"/>
     <id>https://lunaticreisen.github.io/2021/07/06/firstblog/</id>
     <published>2021-07-06T09:35:51.000Z</published>
-    <updated>2021-07-06T10:35:13.108Z</updated>
+    <updated>2021-07-06T16:25:39.534Z</updated>
     
     
       
