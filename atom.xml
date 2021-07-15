@@ -6,7 +6,7 @@
   <link href="https://lunaticreisen.github.io/atom.xml" rel="self"/>
   
   <link href="https://lunaticreisen.github.io/"/>
-  <updated>2021-07-06T16:25:39.534Z</updated>
+  <updated>2021-07-15T08:04:56.808Z</updated>
   <id>https://lunaticreisen.github.io/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>About_this_blog</title>
+    <link href="https://lunaticreisen.github.io/2021/07/15/about-this-blog/"/>
+    <id>https://lunaticreisen.github.io/2021/07/15/about-this-blog/</id>
+    <published>2021-07-15T07:59:56.000Z</published>
+    <updated>2021-07-15T08:04:56.808Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;事实上我并没有忘记这个blog,单纯只是我也没什么要写的&lt;br&gt;不过这个blog会发布一些我以后捡到的洋垃圾以及一些杂七杂八的关于挨踢方面的研究（当作记录 </summary>
+        
+      
+    
+    
+    
+    <category term="test" scheme="https://lunaticreisen.github.io/categories/test/"/>
+    
+    
+    <category term="testBlog" scheme="https://lunaticreisen.github.io/tags/testBlog/"/>
+    
+  </entry>
+  
+  <entry>
     <title>firstBlog</title>
     <link href="https://lunaticreisen.github.io/2021/07/06/firstblog/"/>
     <id>https://lunaticreisen.github.io/2021/07/06/firstblog/</id>
     <published>2021-07-06T09:35:51.000Z</published>
-    <updated>2021-07-06T16:25:39.534Z</updated>
+    <updated>2021-07-15T08:04:55.862Z</updated>
     
     
       
@@ -35,10 +60,10 @@
     
     
     
-    <category term="Test1" scheme="https://lunaticreisen.github.io/categories/Test1/"/>
+    <category term="test" scheme="https://lunaticreisen.github.io/categories/test/"/>
     
     
-    <category term="Blog" scheme="https://lunaticreisen.github.io/tags/Blog/"/>
+    <category term="testBlog" scheme="https://lunaticreisen.github.io/tags/testBlog/"/>
     
   </entry>
   
