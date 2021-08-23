@@ -6,7 +6,7 @@
   <link href="https://lunaticreisen.github.io/atom.xml" rel="self"/>
   
   <link href="https://lunaticreisen.github.io/"/>
-  <updated>2021-07-15T08:04:56.808Z</updated>
+  <updated>2021-08-23T14:44:05.409Z</updated>
   <id>https://lunaticreisen.github.io/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>MinecraftRig</title>
+    <link href="https://lunaticreisen.github.io/2021/08/23/minecraftrig/"/>
+    <id>https://lunaticreisen.github.io/2021/08/23/minecraftrig/</id>
+    <published>2021-08-23T14:07:22.000Z</published>
+    <updated>2021-08-23T14:44:05.409Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;摸了许久，多少学了点名堂。正好那会还在玩mc所以就顺手做了一个玩玩（还能练练手）,并且不知道为什么，貌似没看到过几个做双层皮肤的RIG,那正好我给做出来看看效果。&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;其实这个模型已经完成很久了但是一直没找到机会发布出来&lt;/del&gt;&lt;br&gt;&lt;del&gt;其实</summary>
+        
+      
+    
+    
+    
+    <category term="BlenderModel" scheme="https://lunaticreisen.github.io/categories/BlenderModel/"/>
+    
+    
+    <category term="blender" scheme="https://lunaticreisen.github.io/tags/blender/"/>
+    
+    <category term="rig" scheme="https://lunaticreisen.github.io/tags/rig/"/>
+    
+    <category term="minecraft" scheme="https://lunaticreisen.github.io/tags/minecraft/"/>
+    
+  </entry>
   
   <entry>
     <title>About_this_blog</title>
@@ -46,7 +76,7 @@
     <link href="https://lunaticreisen.github.io/2021/07/06/firstblog/"/>
     <id>https://lunaticreisen.github.io/2021/07/06/firstblog/</id>
     <published>2021-07-06T09:35:51.000Z</published>
-    <updated>2021-07-15T08:04:55.862Z</updated>
+    <updated>2021-07-17T18:24:16.448Z</updated>
     
     
       
