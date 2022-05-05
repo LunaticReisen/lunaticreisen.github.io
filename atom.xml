@@ -6,7 +6,7 @@
   <link href="https://lunaticreisen.github.io/atom.xml" rel="self"/>
   
   <link href="https://lunaticreisen.github.io/"/>
-  <updated>2021-08-24T06:05:47.885Z</updated>
+  <updated>2022-05-05T11:56:28.194Z</updated>
   <id>https://lunaticreisen.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://lunaticreisen.github.io/2021/08/23/minecraftrig/"/>
     <id>https://lunaticreisen.github.io/2021/08/23/minecraftrig/</id>
     <published>2021-08-23T14:07:22.000Z</published>
-    <updated>2021-08-24T06:05:47.885Z</updated>
+    <updated>2022-05-05T11:56:28.194Z</updated>
     
     
       
@@ -50,7 +50,7 @@
     <link href="https://lunaticreisen.github.io/2021/07/15/about-this-blog/"/>
     <id>https://lunaticreisen.github.io/2021/07/15/about-this-blog/</id>
     <published>2021-07-15T07:59:56.000Z</published>
-    <updated>2021-08-24T06:06:56.201Z</updated>
+    <updated>2022-05-05T11:56:27.384Z</updated>
     
     
       
@@ -66,8 +66,6 @@
     <category term="test" scheme="https://lunaticreisen.github.io/categories/test/"/>
     
     
-    <category term="testBlog" scheme="https://lunaticreisen.github.io/tags/testBlog/"/>
-    
   </entry>
   
   <entry>
@@ -75,7 +73,7 @@
     <link href="https://lunaticreisen.github.io/2021/07/06/firstblog/"/>
     <id>https://lunaticreisen.github.io/2021/07/06/firstblog/</id>
     <published>2021-07-06T09:35:51.000Z</published>
-    <updated>2021-08-24T06:06:47.278Z</updated>
+    <updated>2022-05-05T11:56:26.850Z</updated>
     
     
       
@@ -91,8 +89,6 @@
     
     <category term="test" scheme="https://lunaticreisen.github.io/categories/test/"/>
     
-    
-    <category term="testBlog" scheme="https://lunaticreisen.github.io/tags/testBlog/"/>
     
   </entry>
   
