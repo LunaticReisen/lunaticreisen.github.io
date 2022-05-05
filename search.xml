@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Earth</title>
+      <link href="/2022/05/05/earth/"/>
+      <url>/2022/05/05/earth/</url>
+      
+        <content type="html"><![CDATA[<h2 id="地球小动画"><a href="#地球小动画" class="headerlink" title="地球小动画"></a>地球小动画</h2><h3 id="前言-amp-预览"><a href="#前言-amp-预览" class="headerlink" title="前言&amp;预览"></a>前言&amp;预览</h3><p><img src="/medias/loading.gif" data-original="./earth.gif" alt="GIF"></p><p>看了一眼<a href="https://www.bilibili.com/video/BV1UV411o7F9/">教程</a>直接弄的小模型，但是感觉少点什么，就手操了一个小动画</p><p>做模型花费不到十分钟，k曲线花费两小时(因为我确实不怎么做动画)，渲染3分钟(EEVEE)</p><h3 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h3><p><a href="https://lunaticreisen.github.io/files/Earth.blend">github-page download</a></p><p>既然github-page能直接下，还不需要支付流量费用，我就懒得上传别的网站了(这种东西上传别的网站其实挺丢人的)</p><h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h3><p>没啥结语，倒是反馈请邮箱或者twitter，我现在这个主题弄留言还挺麻烦的，就懒得搞了</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Blender </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Blender </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>MinecraftRig</title>
       <link href="/2021/08/23/minecraftrig/"/>
       <url>/2021/08/23/minecraftrig/</url>
