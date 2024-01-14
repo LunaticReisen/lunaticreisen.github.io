@@ -1839,9 +1839,9 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   volantis.GLOBAL_CONFIG ={
     debug: "env",
-    cdn: {"js":{"app":"/js/app.7a2c825e.js","parallax":"https://gcore.jsdelivr.net/gh/LunaticReisen/lunaticreisen.github.io/js/plugins/parallax.min.js?time=1705227319282","rightMenu":"https://gcore.jsdelivr.net/gh/LunaticReisen/lunaticreisen.github.io/js/plugins/rightMenu.min.js?time=1705227319282","rightMenus":"https://gcore.jsdelivr.net/gh/LunaticReisen/lunaticreisen.github.io/js/plugins/rightMenus.min.js?time=1705227319282","sites":"https://gcore.jsdelivr.net/gh/LunaticReisen/lunaticreisen.github.io/js/plugins/tags/sites.min.js?time=1705227319282","friends":"https://gcore.jsdelivr.net/gh/LunaticReisen/lunaticreisen.github.io/js/plugins/tags/friends.min.js?time=1705227319282","contributors":"https://gcore.jsdelivr.net/gh/LunaticReisen/lunaticreisen.github.io/js/plugins/tags/contributors.min.js?time=1705227319282","search":"https://cdn.jsdelivr.net/xxxxxxxx/js/search/hexo.js?time=1705227319282"},"css":{"style":"/css/style.525c6a30.css"}},
+    cdn: {"js":{"app":"/js/app.7a2c825e.js","parallax":"https://gcore.jsdelivr.net/gh/LunaticReisen/lunaticreisen.github.io/js/plugins/parallax.min.js?time=1705229194666","rightMenu":"https://gcore.jsdelivr.net/gh/LunaticReisen/lunaticreisen.github.io/js/plugins/rightMenu.min.js?time=1705229194666","rightMenus":"https://gcore.jsdelivr.net/gh/LunaticReisen/lunaticreisen.github.io/js/plugins/rightMenus.min.js?time=1705229194666","sites":"https://gcore.jsdelivr.net/gh/LunaticReisen/lunaticreisen.github.io/js/plugins/tags/sites.min.js?time=1705229194666","friends":"https://gcore.jsdelivr.net/gh/LunaticReisen/lunaticreisen.github.io/js/plugins/tags/friends.min.js?time=1705229194666","contributors":"https://gcore.jsdelivr.net/gh/LunaticReisen/lunaticreisen.github.io/js/plugins/tags/contributors.min.js?time=1705229194666","search":"https://gcore.jsdelivr.net/gh/LunaticReisen/lunaticreisen.github.io/js/search/hexo.min.js?time=1705229194666"},"css":{"style":"/css/style.525c6a30.css"}},
     default: {"avatar":"https://unpkg.com/volantis-static/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1705227319282),
+    lastupdate: new Date(1705229194666),
     sidebar: {
       for_page: ["blogger","category","tagcloud","donate"],
       for_post: ["toc"],
@@ -3096,19 +3096,19 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
     
       const sites_api = document.getElementById('sites-api');
       if (sites_api != undefined && typeof SitesJS === 'undefined') {
-        volantis.js("https://gcore.jsdelivr.net/gh/LunaticReisen/lunaticreisen.github.io/js/plugins/tags/sites.min.js?time=1705227319282")
+        volantis.js("https://gcore.jsdelivr.net/gh/LunaticReisen/lunaticreisen.github.io/js/plugins/tags/sites.min.js?time=1705229194666")
       }
     
     
       const friends_api = document.getElementById('friends-api');
       if (friends_api != undefined && typeof FriendsJS === 'undefined') {
-        volantis.js("https://gcore.jsdelivr.net/gh/LunaticReisen/lunaticreisen.github.io/js/plugins/tags/friends.min.js?time=1705227319282")
+        volantis.js("https://gcore.jsdelivr.net/gh/LunaticReisen/lunaticreisen.github.io/js/plugins/tags/friends.min.js?time=1705229194666")
       }
     
     
       const contributors_api = document.getElementById('contributors-api');
       if (contributors_api != undefined && typeof ContributorsJS === 'undefined') {
-        volantis.js("https://gcore.jsdelivr.net/gh/LunaticReisen/lunaticreisen.github.io/js/plugins/tags/contributors.min.js?time=1705227319282")
+        volantis.js("https://gcore.jsdelivr.net/gh/LunaticReisen/lunaticreisen.github.io/js/plugins/tags/contributors.min.js?time=1705229194666")
       }
     
   };
@@ -3189,7 +3189,7 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
   function pjax_giscus() {
     const HEAD = check_giscus();
     if (!HEAD) return;
-    let cfg = Object.assign({"theme":{"light":"light","dark":"dark"},"repo":"LunaticReisen/lunaticreisen.github.io","repo-id":"MDEwOlJlcG9zaXRvcnkzODMyMDg5NTM=","mapping":"number","reactions-enabled":"1","emit-metadata":"0","lang":"zh-CN"},pdata.commentConfig)
+    let cfg = Object.assign({"theme":{"light":"light","dark":"dark"},"repo":"LunaticReisen/lunaticreisen.github.io","repo-id":"MDEwOlJlcG9zaXRvcnkzODMyMDg5NTM=","category":"Announcements","category-id":"DIC_kwDOFtdN-c4CcVWR","mapping":"pathname","reactions-enabled":"1","emit-metadata":"0","lang":"zh-CN"},pdata.commentConfig)
     const script = document.createElement('script');
     script.setAttribute('src', 'https://giscus.app/client.js');
     Object.keys(cfg).forEach(k=>{
@@ -3235,7 +3235,7 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
 
   function loadSearchScript() {
     // see: layout/_partial/scripts/_ctrl/cdnCtrl.ejs
-    return volantis.js("https://cdn.jsdelivr.net/xxxxxxxx/js/search/hexo.js?time=1705227319282");
+    return volantis.js("https://gcore.jsdelivr.net/gh/LunaticReisen/lunaticreisen.github.io/js/search/hexo.min.js?time=1705229194666");
   }
 
   function loadSearchService() {
@@ -3351,7 +3351,7 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
   var runningOnBrowser = typeof window !== "undefined";
   var isBot = runningOnBrowser && !("onscroll" in window) || typeof navigator !== "undefined" && /(gle|ing|ro|msn)bot|crawl|spider|yand|duckgo/i.test(navigator.userAgent);
   if (!isBot) {
-    volantis.js('https://gcore.jsdelivr.net/gh/LunaticReisen/lunaticreisen.github.io/js/plugins/parallax.min.js?time=1705227319282').then(()=>{
+    volantis.js('https://gcore.jsdelivr.net/gh/LunaticReisen/lunaticreisen.github.io/js/plugins/parallax.min.js?time=1705229194666').then(()=>{
       parallax()
     })
     volantis.pjax.send(()=>{
