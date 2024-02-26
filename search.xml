@@ -4,6 +4,39 @@
   
     
     <entry>
+      <title>Godot Source Movement</title>
+      <link href="/2024/02/26/godot-source-movement/"/>
+      <url>/2024/02/26/godot-source-movement/</url>
+      
+        <content type="html"><![CDATA[<p>Ported Unity code</p><span id="more"></span><p>项目链接：<a href="https://github.com/LunaticReisen/GodotSourceMovement">https://github.com/LunaticReisen/GodotSourceMovement</a></p><p>目前只实现了BunnyHopping和蹲下这两个功能，且蹲下无法连跳(因为摩擦力的缘故，蹲下速度过小会导致无法移动；但是蹲下速度过大会导致和步行没有区别)</p><p>未来可能会加入surfing，但前提是godot能写得出来；以目前来说，godot过于自由的编写风格让我摸不着头脑，以及用不太明白的signal系统让我自己都不知道我在写什么东西</p><p>更多视频请查看我的<a href="https://twitter.com/514onkoishi">Twitter</a>，blog这边只是简单说一下我的想法</p><p>video:</p><p>连跳</p><div class="video"><video controls="" preload=""><source src="./bunny.mp4" type="video/mp4">Your browser does not support the video tag.</video></div><p>下蹲</p><div class="video"><video controls="" preload=""><source src="./crouch.mp4" type="video/mp4">Your browser does not support the video tag.</video></div><p>蹲跳</p><div class="video"><video controls="" preload=""><source src="./jumpping.mp4" type="video/mp4">Your browser does not support the video tag.</video></div><p><img src="/./medias/godot-source-movement/bunny.mp4" class="lazyload" data-srcset="/./medias/godot-source-movement/bunny.mp4" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="bunny"></p><p><img src="/./medias/godot-source-movement/crouch.mp4" class="lazyload" data-srcset="/./medias/godot-source-movement/crouch.mp4" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="crouch"></p><p><img src="/./medias/godot-source-movement/jumpping.mp4" class="lazyload" data-srcset="/./medias/godot-source-movement/jumpping.mp4" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="jumpping"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> godot </category>
+          
+          <category> source </category>
+          
+          <category> dev </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> godot </tag>
+            
+            <tag> dev </tag>
+            
+            <tag> source </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Markdown testing</title>
       <link href="/2024/01/13/test-md/"/>
       <url>/2024/01/13/test-md/</url>
