@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>NeoUniverse Lowpoly</title>
+      <link href="/2024/03/09/neo-universe-lowpoly/"/>
+      <url>/2024/03/09/neo-universe-lowpoly/</url>
+      
+        <content type="html"><![CDATA[<p>Low poly model</p><span id="more"></span><p>这个模型早在一两年前就有做的想法了，但是一直在弄有的没的导致不记得去做，虽然最后呈现的效果没我想象中的好，但是也还不错了</p><p>制作时间也由于因为作息问题，做的时间比想象中的长，花了快一个月左右</p><p>模型文件等我某天突发奇想了再发出来吧，制作时间太长了，到后面就没有热情继续制作了，导致我其实权重没完全刷完（头发的权重一团糟😋）反正差不多得了，以后有想法了在做这些花哨玩意，接下来就是继续弄我的那个godot小项目了</p><p>Sketchfab : <a href="https://sketchfab.com/3d-models/neouniverse-9f6cf02989814e1f8b65bd835f7c1f62">https://sketchfab.com/3d-models/neouniverse-9f6cf02989814e1f8b65bd835f7c1f62</a></p><p>X or Twitter : <a href="https://x.com/514onkoishi/status/1766048881283104798?s=20">https://x.com/514onkoishi/status/1766048881283104798?s=20</a></p><p><img src="/./imgs/post/neo-universe-lowpoly/neo.gif" class="lazyload" data-srcset="/./imgs/post/neo-universe-lowpoly/neo.gif" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="gif"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Blender </category>
+          
+          <category> Umamusume </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Blender </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Godot Source Movement</title>
       <link href="/2024/02/26/godot-source-movement/"/>
       <url>/2024/02/26/godot-source-movement/</url>
@@ -13,18 +40,18 @@
       
       <categories>
           
-          <category> godot </category>
+          <category> Godot </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> godot </tag>
-            
             <tag> dev </tag>
             
             <tag> source </tag>
+            
+            <tag> Godot </tag>
             
         </tags>
       

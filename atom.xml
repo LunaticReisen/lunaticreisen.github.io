@@ -6,7 +6,7 @@
   <link href="https://lunaticreisen.github.io/atom.xml" rel="self"/>
   
   <link href="https://lunaticreisen.github.io/"/>
-  <updated>2024-02-26T09:54:13.514Z</updated>
+  <updated>2024-03-09T09:59:25.876Z</updated>
   <id>https://lunaticreisen.github.io/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>NeoUniverse Lowpoly</title>
+    <link href="https://lunaticreisen.github.io/2024/03/09/neo-universe-lowpoly/"/>
+    <id>https://lunaticreisen.github.io/2024/03/09/neo-universe-lowpoly/</id>
+    <published>2024-03-09T08:17:05.000Z</published>
+    <updated>2024-03-09T09:59:25.876Z</updated>
+    
+    <content type="html"><![CDATA[<p>Low poly model</p><span id="more"></span><p>这个模型早在一两年前就有做的想法了，但是一直在弄有的没的导致不记得去做，虽然最后呈现的效果没我想象中的好，但是也还不错了</p><p>制作时间也由于因为作息问题，做的时间比想象中的长，花了快一个月左右</p><p>模型文件等我某天突发奇想了再发出来吧，制作时间太长了，到后面就没有热情继续制作了，导致我其实权重没完全刷完（头发的权重一团糟😋）反正差不多得了，以后有想法了在做这些花哨玩意，接下来就是继续弄我的那个godot小项目了</p><p>Sketchfab : <a href="https://sketchfab.com/3d-models/neouniverse-9f6cf02989814e1f8b65bd835f7c1f62">https://sketchfab.com/3d-models/neouniverse-9f6cf02989814e1f8b65bd835f7c1f62</a></p><p>X or Twitter : <a href="https://x.com/514onkoishi/status/1766048881283104798?s=20">https://x.com/514onkoishi/status/1766048881283104798?s=20</a></p><p><img src="/./imgs/post/neo-universe-lowpoly/neo.gif" class="lazyload" data-srcset="/./imgs/post/neo-universe-lowpoly/neo.gif" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="gif"></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;Low poly model&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Blender" scheme="https://lunaticreisen.github.io/categories/Blender/"/>
+    
+    <category term="Umamusume" scheme="https://lunaticreisen.github.io/categories/Blender/Umamusume/"/>
+    
+    
+    <category term="Blender" scheme="https://lunaticreisen.github.io/tags/Blender/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Godot Source Movement</title>
     <link href="https://lunaticreisen.github.io/2024/02/26/godot-source-movement/"/>
     <id>https://lunaticreisen.github.io/2024/02/26/godot-source-movement/</id>
     <published>2024-02-26T09:08:53.000Z</published>
-    <updated>2024-02-26T09:54:13.514Z</updated>
+    <updated>2024-02-26T10:04:37.378Z</updated>
     
     <content type="html"><![CDATA[<p>Ported Unity code</p><span id="more"></span><p>项目链接：<a href="https://github.com/LunaticReisen/GodotSourceMovement">https://github.com/LunaticReisen/GodotSourceMovement</a></p><p>目前只实现了BunnyHopping和蹲下这两个功能，且蹲下无法连跳(因为摩擦力的缘故，蹲下速度过小会导致无法移动；但是蹲下速度过大会导致和步行没有区别)</p><p>未来可能会加入surfing，但前提是godot能写得出来；以目前来说，godot过于自由的编写风格让我摸不着头脑，以及用不太明白的signal系统让我自己都不知道我在写什么东西</p><p>更多视频请查看我的<a href="https://twitter.com/514onkoishi">Twitter</a>，blog这边只是简单说一下我的想法</p><p>video:</p><p>连跳</p><div class="video"><video controls="" preload=""><source src="./bunny.mp4" type="video/mp4">Your browser does not support the video tag.</video></div><p>下蹲</p><div class="video"><video controls="" preload=""><source src="./crouch.mp4" type="video/mp4">Your browser does not support the video tag.</video></div><p>蹲跳</p><div class="video"><video controls="" preload=""><source src="./jumpping.mp4" type="video/mp4">Your browser does not support the video tag.</video></div><p><img src="/./medias/godot-source-movement/bunny.mp4" class="lazyload" data-srcset="/./medias/godot-source-movement/bunny.mp4" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="bunny"></p><p><img src="/./medias/godot-source-movement/crouch.mp4" class="lazyload" data-srcset="/./medias/godot-source-movement/crouch.mp4" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="crouch"></p><p><img src="/./medias/godot-source-movement/jumpping.mp4" class="lazyload" data-srcset="/./medias/godot-source-movement/jumpping.mp4" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="jumpping"></p>]]></content>
     
@@ -30,14 +53,14 @@
     
     
     
-    <category term="godot" scheme="https://lunaticreisen.github.io/categories/godot/"/>
+    <category term="Godot" scheme="https://lunaticreisen.github.io/categories/Godot/"/>
     
-    
-    <category term="godot" scheme="https://lunaticreisen.github.io/tags/godot/"/>
     
     <category term="dev" scheme="https://lunaticreisen.github.io/tags/dev/"/>
     
     <category term="source" scheme="https://lunaticreisen.github.io/tags/source/"/>
+    
+    <category term="Godot" scheme="https://lunaticreisen.github.io/tags/Godot/"/>
     
   </entry>
   
