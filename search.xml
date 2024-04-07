@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>Godot Source Movement</title>
+      <link href="/2024/04/07/godot-source-movement-with-surfing/"/>
+      <url>/2024/04/07/godot-source-movement-with-surfing/</url>
+      
+        <content type="html"><![CDATA[<p>Ported Unity code</p><span id="more"></span><p>项目链接：<a href="https://github.com/LunaticReisen/GodotSourceMovement">https://github.com/LunaticReisen/GodotSourceMovement</a></p><p>花了快一个月的时间，把这个抽象滑翔整明白了，只能说我完全没想到godot这个cb3d会有让你一直在斜坡上滑下来的功能，这功能让我整整弄了快一个月</p><p>反正整完了，我该继续去做我的小独游了，嘻嘻</p><p>视频：<a href="https://x.com/514onkoishi/status/1776906802208104455">https://x.com/514onkoishi/status/1776906802208104455</a></p><p><a href="https://lunaticreisen.github.io/files/GodotSourceMovement.zip">github-page download</a><br><a href="https://github.com/LunaticReisen/GodotSourceMovement/releases">github releases download</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Godot </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Godot </tag>
+            
+            <tag> dev </tag>
+            
+            <tag> source </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>NeoUniverse Lowpoly</title>
       <link href="/2024/03/09/neo-universe-lowpoly/"/>
       <url>/2024/03/09/neo-universe-lowpoly/</url>
@@ -47,11 +76,11 @@
       
         <tags>
             
+            <tag> Godot </tag>
+            
             <tag> dev </tag>
             
             <tag> source </tag>
-            
-            <tag> Godot </tag>
             
         </tags>
       
