@@ -35,19 +35,19 @@
   <!-- feed -->
       <link rel="alternate" href="/atom.xml" title="Lunar's Blog" type="application/atom+xml">
   <!-- 页面元数据 -->
-  <title>Godot Source Movement - Lunar's Blog</title>
+  <title>Godot Source Movement with Surfing - Lunar's Blog</title>
   <meta name="keywords" content="Godot,dev,source,test3">
-  <meta desc name="description" content="Ported Unity code - LunaticPurRabi - Lunar's Blog">
+  <meta desc name="description" content="Updated - LunaticPurRabi - Lunar's Blog">
   
 <meta property="og:type" content="article">
-<meta property="og:title" content="Godot Source Movement">
+<meta property="og:title" content="Godot Source Movement with Surfing">
 <meta property="og:url" content="https://lunaticreisen.github.io/2024/04/07/godot-source-movement-with-surfing/index.html">
 <meta property="og:site_name" content="Lunar&#39;s Blog">
-<meta property="og:description" content="Ported Unity code">
+<meta property="og:description" content="Updated">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://unpkg.com/volantis-static/media/org.volantis/blog/favicon/android-chrome-192x192.png">
 <meta property="article:published_time" content="2024-04-07T12:10:05.000Z">
-<meta property="article:modified_time" content="2024-04-07T12:17:06.021Z">
+<meta property="article:modified_time" content="2024-04-08T07:16:09.910Z">
 <meta property="article:author" content="LunaticPurRabi">
 <meta property="article:tag" content="Godot">
 <meta property="article:tag" content="dev">
@@ -1843,9 +1843,9 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   volantis.GLOBAL_CONFIG ={
     debug: "env",
-    cdn: {"js":{"app":"/js/app.7a2c825e.js","parallax":"https://gcore.jsdelivr.net/gh/LunaticReisen/lunaticreisen.github.io/js/plugins/parallax.min.js?time=1712492241215","rightMenu":"https://gcore.jsdelivr.net/gh/LunaticReisen/lunaticreisen.github.io/js/plugins/rightMenu.min.js?time=1712492241215","rightMenus":"https://gcore.jsdelivr.net/gh/LunaticReisen/lunaticreisen.github.io/js/plugins/rightMenus.min.js?time=1712492241215","sites":"https://gcore.jsdelivr.net/gh/LunaticReisen/lunaticreisen.github.io/js/plugins/tags/sites.min.js?time=1712492241215","friends":"https://gcore.jsdelivr.net/gh/LunaticReisen/lunaticreisen.github.io/js/plugins/tags/friends.min.js?time=1712492241215","contributors":"https://gcore.jsdelivr.net/gh/LunaticReisen/lunaticreisen.github.io/js/plugins/tags/contributors.min.js?time=1712492241215","search":"https://gcore.jsdelivr.net/gh/LunaticReisen/lunaticreisen.github.io/js/search/hexo.min.js?time=1712492241215"},"css":{"style":"/css/style.525c6a30.css"}},
+    cdn: {"js":{"app":"/js/app.7a2c825e.js","parallax":"https://gcore.jsdelivr.net/gh/LunaticReisen/lunaticreisen.github.io/js/plugins/parallax.min.js?time=1712560592466","rightMenu":"https://gcore.jsdelivr.net/gh/LunaticReisen/lunaticreisen.github.io/js/plugins/rightMenu.min.js?time=1712560592466","rightMenus":"https://gcore.jsdelivr.net/gh/LunaticReisen/lunaticreisen.github.io/js/plugins/rightMenus.min.js?time=1712560592466","sites":"https://gcore.jsdelivr.net/gh/LunaticReisen/lunaticreisen.github.io/js/plugins/tags/sites.min.js?time=1712560592466","friends":"https://gcore.jsdelivr.net/gh/LunaticReisen/lunaticreisen.github.io/js/plugins/tags/friends.min.js?time=1712560592466","contributors":"https://gcore.jsdelivr.net/gh/LunaticReisen/lunaticreisen.github.io/js/plugins/tags/contributors.min.js?time=1712560592466","search":"https://gcore.jsdelivr.net/gh/LunaticReisen/lunaticreisen.github.io/js/search/hexo.min.js?time=1712560592466"},"css":{"style":"/css/style.525c6a30.css"}},
     default: {"avatar":"https://unpkg.com/volantis-static/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1712492241215),
+    lastupdate: new Date(1712560592466),
     sidebar: {
       for_page: ["blogger","category","tagcloud","donate"],
       for_post: ["toc"],
@@ -2649,7 +2649,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
     
       <h1 class="title" itemprop="name headline">
-        Godot Source Movement
+        Godot Source Movement with Surfing
       </h1>
       <div class='new-meta-box'>
         
@@ -2706,10 +2706,16 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   <div id="layoutHelper-page-plugins"></div>
   <div id="post-body" itemprop="articleBody">
-    <p>Ported Unity code</p>
+    <p>Updated</p>
 <span id="more"></span>
 
 <p>项目链接：<a target="_blank" rel="noopener" href="https://github.com/LunaticReisen/GodotSourceMovement">https://github.com/LunaticReisen/GodotSourceMovement</a></p>
+<p>稍微说一下在Quake类引擎里面，滑翔是怎么实现的：</p>
+<p>你在滑翔的时候，其实是属于<strong>空中移动</strong>，当你理解到这一点的时候你大概也明白这是怎么一回事了，没明白我继续展开说说：</p>
+<p>先看这个<a target="_blank" rel="noopener" href="https://adrianb.io/2015/02/14/bunnyhop.html">链接</a>，在Quake里，你能在空中加速而不能在地面加速是因为他们限制的是<strong>当前速度对加速度的投影</strong>，这也就是跳起来后ad左右晃鼠标能加速的缘由；继续说滑翔，因为当你在滑翔的时候你是在<strong>空中移动</strong>，且斜坡（在一定角度内）不算是地面，所以你就能按着墙面方向的移动键一直沿着墙面滑翔。</p>
+<p>至于为什么有时候滑不起来，这其实是数据配置的问题（我被这个问题困扰了快一周）：当你的空中加速度不够的时候是会直接滑下去的；在够的情况下但最高空中速度过低的时候，也会因为需要在斜坡上滑一段距离导致滑不起来</p>
+<p>学识不精，还有问题请在留言区反馈(￣▽￣)</p>
+<hr>
 <p>花了快一个月的时间，把这个抽象滑翔整明白了，只能说我完全没想到godot这个cb3d会有让你一直在斜坡上滑下来的功能，这功能让我整整弄了快一个月</p>
 <p>反正整完了，我该继续去做我的小独游了，嘻嘻</p>
 <p>视频：<a target="_blank" rel="noopener" href="https://x.com/514onkoishi/status/1776906802208104455">https://x.com/514onkoishi/status/1776906802208104455</a></p>
@@ -2726,10 +2732,10 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <div class='new-meta-box'>
       
         
-          <div class="new-meta-item date" itemprop="dateModified" datetime="2024-04-07T20:17:06+08:00">
+          <div class="new-meta-item date" itemprop="dateModified" datetime="2024-04-08T15:16:09+08:00">
   <a class='notlink'>
     <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
-    <p>更新于：2024年4月7日</p>
+    <p>更新于：2024年4月8日</p>
   </a>
 </div>
 
@@ -2754,7 +2760,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://lunaticreisen.github.io/2024/04/07/godot-source-movement-with-surfing/&title=Godot Source Movement - Lunar's Blog&summary=Ported Unity code"
+          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://lunaticreisen.github.io/2024/04/07/godot-source-movement-with-surfing/&title=Godot Source Movement with Surfing - Lunar's Blog&summary=Updated"
           
           >
           
@@ -2766,7 +2772,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://service.weibo.com/share/share.php?url=https://lunaticreisen.github.io/2024/04/07/godot-source-movement-with-surfing/&title=Godot Source Movement - Lunar's Blog&summary=Ported Unity code"
+          target="_blank" href="http://service.weibo.com/share/share.php?url=https://lunaticreisen.github.io/2024/04/07/godot-source-movement-with-surfing/&title=Godot Source Movement with Surfing - Lunar's Blog&summary=Updated"
           
           >
           
@@ -3120,19 +3126,19 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
     
       const sites_api = document.getElementById('sites-api');
       if (sites_api != undefined && typeof SitesJS === 'undefined') {
-        volantis.js("https://gcore.jsdelivr.net/gh/LunaticReisen/lunaticreisen.github.io/js/plugins/tags/sites.min.js?time=1712492241215")
+        volantis.js("https://gcore.jsdelivr.net/gh/LunaticReisen/lunaticreisen.github.io/js/plugins/tags/sites.min.js?time=1712560592466")
       }
     
     
       const friends_api = document.getElementById('friends-api');
       if (friends_api != undefined && typeof FriendsJS === 'undefined') {
-        volantis.js("https://gcore.jsdelivr.net/gh/LunaticReisen/lunaticreisen.github.io/js/plugins/tags/friends.min.js?time=1712492241215")
+        volantis.js("https://gcore.jsdelivr.net/gh/LunaticReisen/lunaticreisen.github.io/js/plugins/tags/friends.min.js?time=1712560592466")
       }
     
     
       const contributors_api = document.getElementById('contributors-api');
       if (contributors_api != undefined && typeof ContributorsJS === 'undefined') {
-        volantis.js("https://gcore.jsdelivr.net/gh/LunaticReisen/lunaticreisen.github.io/js/plugins/tags/contributors.min.js?time=1712492241215")
+        volantis.js("https://gcore.jsdelivr.net/gh/LunaticReisen/lunaticreisen.github.io/js/plugins/tags/contributors.min.js?time=1712560592466")
       }
     
   };
@@ -3259,7 +3265,7 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
 
   function loadSearchScript() {
     // see: layout/_partial/scripts/_ctrl/cdnCtrl.ejs
-    return volantis.js("https://gcore.jsdelivr.net/gh/LunaticReisen/lunaticreisen.github.io/js/search/hexo.min.js?time=1712492241215");
+    return volantis.js("https://gcore.jsdelivr.net/gh/LunaticReisen/lunaticreisen.github.io/js/search/hexo.min.js?time=1712560592466");
   }
 
   function loadSearchService() {
@@ -3375,7 +3381,7 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
   var runningOnBrowser = typeof window !== "undefined";
   var isBot = runningOnBrowser && !("onscroll" in window) || typeof navigator !== "undefined" && /(gle|ing|ro|msn)bot|crawl|spider|yand|duckgo/i.test(navigator.userAgent);
   if (!isBot) {
-    volantis.js('https://gcore.jsdelivr.net/gh/LunaticReisen/lunaticreisen.github.io/js/plugins/parallax.min.js?time=1712492241215').then(()=>{
+    volantis.js('https://gcore.jsdelivr.net/gh/LunaticReisen/lunaticreisen.github.io/js/plugins/parallax.min.js?time=1712560592466').then(()=>{
       parallax()
     })
     volantis.pjax.send(()=>{
@@ -3561,7 +3567,7 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
 </script>
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Lunar's Blog","url":"https://lunaticreisen.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"LunaticPurRabi","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://lunaticreisen.github.io/","sameAs":["https://github.com/volantis-x"],"description":"摸了"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://lunaticreisen.github.io/","name":"Lunar's Blog"}},{"@type":"ListItem","position":2,"item":{"@id":"https://lunaticreisen.github.io/categories/Godot/","name":"Godot"}},{"@type":"ListItem","position":3,"item":{"@id":"https://lunaticreisen.github.io/2024/04/07/godot-source-movement-with-surfing/","name":"Godot Source Movement"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"Lunar's Blog","url":"https://lunaticreisen.github.io/","keywords":"test3","description":"摸了","author":{"@type":"Person","name":"LunaticPurRabi","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://lunaticreisen.github.io/","description":"摸了"},"publisher":{"@type":"Organization","name":"Lunar's Blog","url":"https://lunaticreisen.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"https://lunaticreisen.github.io?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"Godot Source Movement","description":"Ported Unity code","inLanguage":["zh-CN","en","zh-TW","default"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://lunaticreisen.github.io/2024/04/07/godot-source-movement-with-surfing/"},"author":{"@type":"Person","name":"LunaticPurRabi","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://lunaticreisen.github.io/"},"publisher":{"@type":"Organization","name":"Lunar's Blog","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://lunaticreisen.github.io/2024/04/07/godot-source-movement-with-surfing/","wordCount":17,"datePublished":"2024-04-07T12:10:05.000Z","dateModified":"2024-04-07T12:17:06.021Z","articleSection":"Godot","keywords":"Godot,dev,source","image":{"@type":"ImageObject","url":"https://lunaticreisen.github.io/imgs/headimg/godotsource.png","width":1024,"height":768}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Lunar's Blog","url":"https://lunaticreisen.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"LunaticPurRabi","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://lunaticreisen.github.io/","sameAs":["https://github.com/volantis-x"],"description":"摸了"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://lunaticreisen.github.io/","name":"Lunar's Blog"}},{"@type":"ListItem","position":2,"item":{"@id":"https://lunaticreisen.github.io/categories/Godot/","name":"Godot"}},{"@type":"ListItem","position":3,"item":{"@id":"https://lunaticreisen.github.io/2024/04/07/godot-source-movement-with-surfing/","name":"Godot Source Movement with Surfing"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"Lunar's Blog","url":"https://lunaticreisen.github.io/","keywords":"test3","description":"摸了","author":{"@type":"Person","name":"LunaticPurRabi","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://lunaticreisen.github.io/","description":"摸了"},"publisher":{"@type":"Organization","name":"Lunar's Blog","url":"https://lunaticreisen.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"https://lunaticreisen.github.io?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"Godot Source Movement with Surfing","description":"Updated","inLanguage":["zh-CN","en","zh-TW","default"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://lunaticreisen.github.io/2024/04/07/godot-source-movement-with-surfing/"},"author":{"@type":"Person","name":"LunaticPurRabi","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://lunaticreisen.github.io/"},"publisher":{"@type":"Organization","name":"Lunar's Blog","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://lunaticreisen.github.io/2024/04/07/godot-source-movement-with-surfing/","wordCount":7,"datePublished":"2024-04-07T12:10:05.000Z","dateModified":"2024-04-08T07:16:09.910Z","articleSection":"Godot","keywords":"Godot,dev,source","image":{"@type":"ImageObject","url":"https://lunaticreisen.github.io/imgs/headimg/godotsource.png","width":1024,"height":768}}]</script>
 
 
 

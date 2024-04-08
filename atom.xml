@@ -6,7 +6,7 @@
   <link href="https://lunaticreisen.github.io/atom.xml" rel="self"/>
   
   <link href="https://lunaticreisen.github.io/"/>
-  <updated>2024-04-07T12:17:06.021Z</updated>
+  <updated>2024-04-08T07:16:09.910Z</updated>
   <id>https://lunaticreisen.github.io/</id>
   
   <author>
@@ -17,16 +17,16 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Godot Source Movement</title>
+    <title>Godot Source Movement with Surfing</title>
     <link href="https://lunaticreisen.github.io/2024/04/07/godot-source-movement-with-surfing/"/>
     <id>https://lunaticreisen.github.io/2024/04/07/godot-source-movement-with-surfing/</id>
     <published>2024-04-07T12:10:05.000Z</published>
-    <updated>2024-04-07T12:17:06.021Z</updated>
+    <updated>2024-04-08T07:16:09.910Z</updated>
     
-    <content type="html"><![CDATA[<p>Ported Unity code</p><span id="more"></span><p>项目链接：<a href="https://github.com/LunaticReisen/GodotSourceMovement">https://github.com/LunaticReisen/GodotSourceMovement</a></p><p>花了快一个月的时间，把这个抽象滑翔整明白了，只能说我完全没想到godot这个cb3d会有让你一直在斜坡上滑下来的功能，这功能让我整整弄了快一个月</p><p>反正整完了，我该继续去做我的小独游了，嘻嘻</p><p>视频：<a href="https://x.com/514onkoishi/status/1776906802208104455">https://x.com/514onkoishi/status/1776906802208104455</a></p><p><a href="https://lunaticreisen.github.io/files/GodotSourceMovement.zip">github-page download</a><br><a href="https://github.com/LunaticReisen/GodotSourceMovement/releases">github releases download</a></p>]]></content>
+    <content type="html"><![CDATA[<p>Updated</p><span id="more"></span><p>项目链接：<a href="https://github.com/LunaticReisen/GodotSourceMovement">https://github.com/LunaticReisen/GodotSourceMovement</a></p><p>稍微说一下在Quake类引擎里面，滑翔是怎么实现的：</p><p>你在滑翔的时候，其实是属于<strong>空中移动</strong>，当你理解到这一点的时候你大概也明白这是怎么一回事了，没明白我继续展开说说：</p><p>先看这个<a href="https://adrianb.io/2015/02/14/bunnyhop.html">链接</a>，在Quake里，你能在空中加速而不能在地面加速是因为他们限制的是<strong>当前速度对加速度的投影</strong>，这也就是跳起来后ad左右晃鼠标能加速的缘由；继续说滑翔，因为当你在滑翔的时候你是在<strong>空中移动</strong>，且斜坡（在一定角度内）不算是地面，所以你就能按着墙面方向的移动键一直沿着墙面滑翔。</p><p>至于为什么有时候滑不起来，这其实是数据配置的问题（我被这个问题困扰了快一周）：当你的空中加速度不够的时候是会直接滑下去的；在够的情况下但最高空中速度过低的时候，也会因为需要在斜坡上滑一段距离导致滑不起来</p><p>学识不精，还有问题请在留言区反馈(￣▽￣)</p><hr><p>花了快一个月的时间，把这个抽象滑翔整明白了，只能说我完全没想到godot这个cb3d会有让你一直在斜坡上滑下来的功能，这功能让我整整弄了快一个月</p><p>反正整完了，我该继续去做我的小独游了，嘻嘻</p><p>视频：<a href="https://x.com/514onkoishi/status/1776906802208104455">https://x.com/514onkoishi/status/1776906802208104455</a></p><p><a href="https://lunaticreisen.github.io/files/GodotSourceMovement.zip">github-page download</a><br><a href="https://github.com/LunaticReisen/GodotSourceMovement/releases">github releases download</a></p>]]></content>
     
     
-    <summary type="html">&lt;p&gt;Ported Unity code&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;Updated&lt;/p&gt;</summary>
     
     
     
