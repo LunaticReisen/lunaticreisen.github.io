@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Luce</title>
+      <link href="/2024/12/04/model-luce/"/>
+      <url>/2024/12/04/model-luce/</url>
+      
+        <content type="html"><![CDATA[<p>Luce lowpoly model</p><span id="more"></span><hr><p>一个月前灵光一想，突然就做出来了，事实上模型和材质加起来可能花了不到10个小时</p><p>但是因为别的事项以及懒就没继续做了，动画是一周前做的，但是也是同样的理由没继续做了（（</p><p>在导出模型的时候有个小插曲，blender无法烘焙物体的子级约束动画，导致我又花了10分钟重新凹了一下动画，蛤蛤</p><p>和以往一样，请随意玩耍，再见</p><p>Preview:</p><p><img src="/./imgs/post/model_luce/luce_animation.gif" class="lazyload" data-srcset="/./imgs/post/model_luce/luce_animation.gif" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="static pose"></p><div galleryflag="" itemscope="" itemtype="http://schema.org/ImageGallery" class="gallery " data-group="one"><div class="fancybox"><a class="fancybox" pjax-fancybox="" itemscope="" itemtype="http://schema.org/ImageObject" itemprop="url" href="/./imgs/post/model_luce/luce_throwing.gif" data-fancybox="one" data-caption="throwing"><img fancybox="" itemprop="contentUrl" src="/./imgs/post/model_luce/luce_throwing.gif" class="lazyload" data-srcset="/./imgs/post/model_luce/luce_throwing.gif" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="throwing"></a><span class="image-caption">throwing</span></div><br><div class="fancybox"><a class="fancybox" pjax-fancybox="" itemscope="" itemtype="http://schema.org/ImageObject" itemprop="url" href="/./imgs/post/model_luce/luce_throwing_speedup.gif" data-fancybox="one" data-caption="throwing_speedup"><img fancybox="" itemprop="contentUrl" src="/./imgs/post/model_luce/luce_throwing_speedup.gif" class="lazyload" data-srcset="/./imgs/post/model_luce/luce_throwing_speedup.gif" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="throwing_speedup"></a><span class="image-caption">throwing_speedup</span></div></div><p><a href="https://blendswap.com/blend/31743">Blenderswap</a></p><p><a href="https://skfb.ly/pszUA">SketchFab</a></p><p><a href="https://lunaticreisen.github.io/files/luce-raw.blend">GitPages Download</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Blender </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Blender </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Func_Godot Vol.2 FGD and Entity</title>
       <link href="/2024/11/29/func-godot-vol-2/"/>
       <url>/2024/11/29/func-godot-vol-2/</url>
